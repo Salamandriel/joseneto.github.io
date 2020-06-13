@@ -1,0 +1,21 @@
+@media (min-width: 560px) {
+    .sobre .avatar {
+        float: right;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+}
+
+@media (min-width:560px) {
+    .portfolio .grid {
+        grid-template-columns: 240px 240px;
+    }
+}
+
+@media (min-width:880px) {
+    .portfolio .grid {
+        grid-template-columns: repeat(3, 260px);
+        justify-content: center;
+        align-content: center;
+        height: calc(100vh- 8em - 48px);
+    }
+}
