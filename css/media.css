@@ -1,7 +1,33 @@
+/* se a tela tiver pelo menos 400px vai carregar estes estilos*/
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* breakpoint */
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* breakpoint */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
 @media (min-width: 560px) {
     .sobre .avatar {
         float: right;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: circle();
     }
 }
 
@@ -17,5 +43,20 @@
         justify-content: center;
         align-content: center;
         height: calc(100vh- 8em - 48px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-portfolio {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
